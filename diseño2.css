@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: black;
+  color: #ffff00;
+}
+
+.main-header {
+  /* background-color: #e6e6e6; */
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-size: 30px;
+  text-align: center;
+}
+
+a:link {
+  color: #ffff00;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffff00;
+}
+
+a:hover {
+  color: #cccc00;
+  font-weight: bold;
+  text-decoration: underline #cccc00;
+}
+
+a:active {
+  background-color: #98a0a0;
+  font-style: italic;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav:a:last-child {
+  margin-right: 0;
+}
+
+.pagina {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.pagina h1 {
+  text-align: center;
+}
+
+.body-index {
+  background-image: url(img/glitch.gif);
+}
+
+.pag2 {
+  border: 2px solid #ffff00;
+  padding: 5px;
+}
+
+.izquierda-ul {
+  float: left;
+}
+
+.derecha-ul {
+  float: right;
+}
+
+li {
+  list-style: none;
+}
+
+.card1 {
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+}
+
+.info {
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.info2 {
+  margin-bottom: 0px;
+}
+
+.accordion-button {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: #ffff00;
+  width: 300px;
+}
+
+button:hover {
+  background-color: #cccc00;
+  font-weight: bold;
+  text-decoration: underline #cccc00;
+}
+.card {
+  margin: 0 auto;
+  background-color: #ffff00;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #98a0a0;
+  font-weight: bold;
+}

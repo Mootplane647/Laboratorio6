@@ -109,6 +109,8 @@ button:hover {
   background-color: #cccc00;
   font-weight: bold;
   text-decoration: underline #cccc00;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .card {
   margin: 0 auto;
